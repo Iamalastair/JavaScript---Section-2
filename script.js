@@ -74,11 +74,8 @@ if (isMarried === 'yes'){
     console.log(name + ' is married!')
 } else {
     console.log(name + ' will hopefully marry Alice someday!');
-<<<<<<< HEAD
 }*/
-
-// CODING CHALLENGE 1
-=======
+/*
 }
 
 isMarried = true;
@@ -101,7 +98,7 @@ if (23 === '23'){
 */
 
 //Lecture: boolean logic and switch
-
+/*
 var age = 20;
 
 if (age < 20) {
@@ -128,6 +125,34 @@ switch (job){
         break;
     default:
         console.log('Alastair does something else');
+}*/
+
+//Coding Challenge - Branch CC1
+
+var ageAlastair =(26);
+var ageAlice =(23);
+var ageEd = (29);
+var heightAlastair =(182);
+var heightAlice =(135);
+var heightEd = (165);
+
+var scoreAlastair = heightAlastair + (ageAlastair * 5);
+    console.log('Alastairs score is ' + scoreAlastair);
+
+var scoreAlice = heightAlice + (ageAlice * 5);
+    console.log('Alices score is ' + scoreAlice);
+
+var scoreEd = heightEd + (ageEd * 5);
+    console.log('Eds score is ' + scoreEd);
+
+var winningScore = (312);
+
+if (scoreAlice >= winningScore) {
+    console.log('Alice is the winner with a score of ' + scoreAlastair);
+} else if ( scoreAlastair >= winningScore && scoreEd >= winningScore) ; {
+    console.log('It is a draw!');
+} else {
+    consolo.log('the winnie is someone else');
 }
->>>>>>> 0f107ed78271122deee76fc04321ccdc22d811ef
+
 
