@@ -65,6 +65,7 @@ console.log(ageAlastair);
 */
 
 //Lecture : if/else statements
+/*
 var name= 'Alastair';
 var age = 26;
 var isMarried = 'no';
@@ -75,10 +76,52 @@ if (isMarried === 'yes'){
     console.log(name + ' will hopefully marry Alice someday!');
 }
 
-isMarried = false;
+isMarried = true;
 
-if(isMarried); {
+
+if(isMarried) {
     console.log('Yes!');
 } else {
     console.log('No');
 }
+
+
+if(isMarried) {
+    console.log('Yes!');
+}
+
+if (23 === '23'){
+    console.log('something');
+}
+*/
+
+//Lecture: boolean logic and switch
+
+var age = 20;
+
+if (age < 20) {
+    console.log('Alastair is a teenager');
+} else if (age >= 20 && age  <30) {
+    console.log('Alastair is a young man');
+} else {
+    console.log('Alastair is a man');
+}
+
+var job = 'Project Manager';
+
+job = prompt('What does Alastair do?');
+
+switch (job){
+    case 'Project Manager':
+        console.log('Alastair manages projects');
+        break;
+    case 'Developer':
+        console.log('Alastair has become a developer');
+        break;
+    case 'Superhero':
+        console.log('Alastair fights baddies!');
+        break;
+    default:
+        console.log('Alastair does something else');
+}
+
