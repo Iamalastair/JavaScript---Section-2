@@ -65,6 +65,7 @@ console.log(ageAlastair);
 */
 
 //Lecture : if/else statements
+/*
 var name= 'Alastair';
 var age = 26;
 var isMarried = 'no';
@@ -73,4 +74,7 @@ if (isMarried === 'yes'){
     console.log(name + ' is married!')
 } else {
     console.log(name + ' will hopefully marry Alice someday!');
-}
+}*/
+
+// CODING CHALLENGE 1
+
