@@ -74,7 +74,60 @@ if (isMarried === 'yes'){
     console.log(name + ' is married!')
 } else {
     console.log(name + ' will hopefully marry Alice someday!');
+<<<<<<< HEAD
 }*/
 
 // CODING CHALLENGE 1
+=======
+}
+
+isMarried = true;
+
+
+if(isMarried) {
+    console.log('Yes!');
+} else {
+    console.log('No');
+}
+
+
+if(isMarried) {
+    console.log('Yes!');
+}
+
+if (23 === '23'){
+    console.log('something');
+}
+*/
+
+//Lecture: boolean logic and switch
+
+var age = 20;
+
+if (age < 20) {
+    console.log('Alastair is a teenager');
+} else if (age >= 20 && age  <30) {
+    console.log('Alastair is a young man');
+} else {
+    console.log('Alastair is a man');
+}
+
+var job = 'Project Manager';
+
+job = prompt('What does Alastair do?');
+
+switch (job){
+    case 'Project Manager':
+        console.log('Alastair manages projects');
+        break;
+    case 'Developer':
+        console.log('Alastair has become a developer');
+        break;
+    case 'Superhero':
+        console.log('Alastair fights baddies!');
+        break;
+    default:
+        console.log('Alastair does something else');
+}
+>>>>>>> 0f107ed78271122deee76fc04321ccdc22d811ef
 
