@@ -74,3 +74,11 @@ if (isMarried === 'yes'){
 } else {
     console.log(name + ' will hopefully marry Alice someday!');
 }
+
+isMarried = false;
+
+if(isMarried); {
+    console.log('Yes!');
+} else {
+    console.log('No');
+}
