@@ -165,3 +165,26 @@ if (scoreAlice > scoreAlastair && scoreAlice > scoreEd) {
 }*/
 
 // Lecture: functions
+
+function calculateAge(yearOfBirth){
+    var age = 2017 - yearOfBirth;
+    return age;
+}
+
+//var ageAlastair = calculateAge(1991);
+//var ageDuncan = calculateAge(1982);
+//var ageSteve = calculateAge(1983);
+//    console.log(ageAlastair);
+
+function yearsUntilRetirement(name,year){
+    var age = calculateAge(year);
+    var retirement = 65 - age;
+    if (retirement >= 0) {
+        console.log(name + ' retires in ' + retirement + 'years.')
+    } else {
+        console.log(name + ' has already retired.')
+    }
+}
+yearsUntilRetirement('Duncan',1982);
+yearsUntilRetirement('Steve',1950);
+yearsUntilRetirement('Alastair',1991);
