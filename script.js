@@ -128,7 +128,7 @@ switch (job){
 }*/
 
 //Coding Challenge - Branch CC1
-
+/*
 var ageAlastair =26;
 var ageAlice =26;
 var ageEd = 29;
@@ -162,6 +162,6 @@ if (scoreAlice > scoreAlastair && scoreAlice > scoreEd) {
     console.log('Ed is the winner with a score of ' + scoreEd);
 } else {
     console.log('Everyone wins! It\'s a draw!');
-}
+}*/
 
-
+// Lecture: functions
