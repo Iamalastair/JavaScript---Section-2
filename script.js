@@ -165,7 +165,7 @@ if (scoreAlice > scoreAlastair && scoreAlice > scoreEd) {
 }*/
 
 // Lecture: functions
-
+/*
 function calculateAge(yearOfBirth){
     var age = 2017 - yearOfBirth;
     return age;
@@ -188,3 +188,44 @@ function yearsUntilRetirement(name,year){
 yearsUntilRetirement('Duncan',1982);
 yearsUntilRetirement('Steve',1950);
 yearsUntilRetirement('Alastair',1991);
+*/
+
+// Lecture: statements & expressions
+/*
+//expressions - they do something now
+3 + 4;
+var x = 3;
+
+//statements - they don't do anything immediately
+if (x ===5) {
+    //do something
+}
+*/
+
+//Lecture : arrays
+/*
+var names = ['Alastair', 'Rob', 'Chris'];
+var years = new Array(1991, 1979, 1980);
+
+console.log(names[0]);
+
+names[0] = 'Alice';
+console.log(names);
+
+var alastair = ['Alastair', 'Hardie', 1991, 'Project Manager', false];
+
+alastair.push('cobalt'); //adds a new element to the end of an array
+alastair.unshift('Mr.'); //adds a new element at the beginning of the array
+alastair.pop(); //this removes the last element from the array
+alastair.shift(); //this removes the first element
+
+console.log(alastair);
+
+(alastair.indexOf('Hardie')); //finds out if an element is called in an array and indicates it's position
+
+if (alastair.indexOf('Project Manager') === -1){ //indexOf also is outputted a -1 so the === -1 will return positive if they match
+    console.log('Alastair is NOT a teacher');
+}
+*/
+
+
