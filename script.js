@@ -129,12 +129,12 @@ switch (job){
 
 //Coding Challenge - Branch CC1
 
-var ageAlastair =(26);
-var ageAlice =(23);
-var ageEd = (29);
-var heightAlastair =(182);
-var heightAlice =(135);
-var heightEd = (165);
+var ageAlastair =26;
+var ageAlice =26;
+var ageEd = 29;
+var heightAlastair =182;
+var heightAlice =135;
+var heightEd = 190;
 
 var scoreAlastair = heightAlastair + (ageAlastair * 5);
     console.log('Alastairs score is ' + scoreAlastair);
@@ -145,14 +145,23 @@ var scoreAlice = heightAlice + (ageAlice * 5);
 var scoreEd = heightEd + (ageEd * 5);
     console.log('Eds score is ' + scoreEd);
 
-var winningScore = (312);
-
-if (scoreAlice >= winningScore) {
+if (scoreAlice > scoreAlastair) {
     console.log('Alice is the winner with a score of ' + scoreAlastair);
-} else if ( scoreAlastair >= winningScore && scoreEd >= winningScore) ; {
+} else if ( scoreAlastair === scoreAlice) {
     console.log('It is a draw!');
 } else {
-    consolo.log('the winnie is someone else');
+    console.log('Alastair is the winner with a score of ' + scoreAlastair);
+}
+//Three Players
+
+if (scoreAlice > scoreAlastair && scoreAlice > scoreEd) {
+    console.log('Alice is the winner with a score of ' + scoreAlice);
+} else if (scoreAlastair > scoreAlice && scoreAlastair > scoreEd) {
+    console.log('Alastair is the winner with a score of ' + scoreAlastair);
+} else if (scoreEd > scoreAlice && scoreEd > scoreAlastair) {
+    console.log('Ed is the winner with a score of ' + scoreEd);
+} else {
+    console.log('Everyone wins! It\'s a draw!');
 }
 
 
