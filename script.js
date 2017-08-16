@@ -228,4 +228,66 @@ if (alastair.indexOf('Project Manager') === -1){ //indexOf also is outputted a -
 }
 */
 
+//Lecture : objects & properties
+
+/*
+console.log(alastair.lastName);
+console.log(alastair['lastName']);
+
+var xyz = 'job';
+console.log(alastair[xyz]);
+
+alastair.lastName = 'Irwin';
+alastair['job'] = 'Developer';
+
+console.log(alastair);
+
+var alice = new Object();
+alice.name = 'Alice';
+alice.lastName = 'Irwin';
+alice['yearOfBirth'] = 1991;
+alice['job'] = 'Doctor';
+alice['isMarried'] = false;
+
+console.log(alice);
+*/
+/*
+//v1.0
+var alastair = {
+    name: 'Alastair',
+    lastName: 'Hardie',
+    age: 26,
+    married: false,
+    job: 'Project Manager',
+    yearOfBirth: 1991,
+    family: ['Fiona','Mandy','Niall'],
+    calculateAge: function() {  //function expression
+        return 2017 - this.yearOfBirth;
+    }
+};
+
+//console.log(alastair.calculateAge('yearOfBirth'));
+console.log(alastair.calculateAge());
+
+var age = alastair.calculateAge();
+alastair.age = age;
+console.log(alastair);
+*/
+
+//v2.0
+var alastair = { //this is the object
+    name: 'Alastair', //the two of these together are known as a property
+    lastName: 'Hardie',
+    age: 26,
+    married: false,
+    job: 'Project Manager',
+    yearOfBirth: 1991,
+    family: ['Fiona','Mandy','Niall'],
+    calculateAge: function() {  //function expression
+        this.age = 2017 - this.yearOfBirth //when using this. this declares the object from the array. In this instance it adds a new variable as well.
+    }                                      // this is a lot more flexible for when using multiple arrays with the same properties.
+};
+
+alastair.calculateAge();
+console.log(alastair);
 
